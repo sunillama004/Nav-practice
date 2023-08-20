@@ -1,0 +1,945 @@
+
+@media only screen and (max-width: 1194px){
+
+    body{
+        background-color: red;
+    }
+    
+    .head-panel{
+        display: block;
+        width: 100%;
+        margin: auto;
+
+    }
+
+    
+}
+    
+
+body{
+  height:100%;
+  width:100%;
+  margin:none;
+
+}
+.head-panel{
+
+
+  display:flex;
+  flex-direction:right;
+  width:100%;
+  height:100px;
+  border:1px solid black;
+  background-color:rgb(234, 228, 215);
+  align-items:center;
+  margin-top:20px;
+
+
+
+
+}
+
+.logo{
+  border:1px solid black;
+  height:80px;
+  width:80px;
+  border-radius:40px;
+
+  margin-top:20px;
+  margin-bottom:20px;
+  margin-left:50px;
+  margin-right:20px;
+  
+}
+
+.logo.text{
+font-weight:100px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left:-50px;
+}
+
+nav{
+ width:40%;
+ height:50px;
+
+ margin-top:20px;
+ margin-bottom:20px;
+ margin-left:120px;
+ margin-right:50px;
+
+
+}
+nav ul {
+
+display:flex;
+flex-direction:right;
+
+
+}
+ 
+nav ul li {
+text-decoration:none;
+list-style: none;
+
+margin-left:20px;
+margin-right:20px;
+
+}
+
+nav ul li a{
+
+  color:black;
+  text-decoration:none;
+  font-size:23px;
+  font-weight: 200px;
+  cursor: pointer;
+
+}
+
+.box{
+  height:40px;
+  width:150px;
+  background-color:rgb(168, 25, 25);
+  color: white;
+  font-style:italic;
+  font-size: 15px;
+  text-align:center;
+  align-items:center;
+  padding:5px 5px;
+  cursor:pointer;
+  display:text;
+  
+
+
+
+}
+.box-text{
+   
+}
+
+.body-content{
+
+  border-top: 50px solid rgb(44, 44, 44);
+  margin-top:50px;
+  border-top-left-radius:25px ;
+  border-top-right-radius: 25px;
+  height:800px;
+  width:100%;
+  background-color:black;
+
+
+}
+.body-heroimage 
+{
+  height:700px;
+
+  width:95%;
+  background-image: url("./images/John Wick1.jpg");
+  background-size:100%;
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:20px;
+
+
+  
+
+}
+
+.bottom-display{
+
+ height:1000px;
+ width:100%;
+ background-color:black;
+margin-top:100px;
+border-top:30px solid rgb(82, 82, 82);
+
+
+}
+
+.display{
+
+background-color: rgb(41, 40, 40);
+height:900px;
+width:90%;
+margin-top:-200px;
+margin-right:5%;
+margin-left:5%;
+border-top:2px solid gray;
+border-top-left-radius:30px;
+border-top-right-radius:30px;
+border-left:5px solid rgba(26, 26, 26, 0.992);
+border-right:5px solid rgba(26, 26, 26, 0.992);
+box-shadow:20px rgb(179, 175, 175);
+text-align:center;
+color:white;
+
+}
+
+
+
+.design-box{
+    display:flex;
+
+}
+
+.left-box{
+border:2px solid rgb(31, 30, 30);
+border-top-right-radius:50px;
+margin-top:-10px;
+height:200px;
+width: 500px;
+background-color:black;
+border-right:transparent;
+border-left:solid rgb(135, 5, 5);
+}
+.central-box{
+    border:solid transparent;
+border-top-right-radius:;
+border-top :2px solid gray;
+height:150px;
+width: 200px;
+margin-top:37px;
+background-color:black;
+
+}
+.right-box{
+    border:2px solid rgb(31, 30, 30);
+border-top-left-radius:50px;
+height:200px;
+width: 500px;
+margin-top:-10px;
+background-color:black;
+border-left:transparent;
+border-right:solid rgb(135, 5, 5);
+}
+
+
+.count-down{
+    position:relative;
+    top:-80px;
+    left: 1080px;
+    text-align:center;
+    color:white;
+    font-size:25px;
+    height:100px;
+    width: 100px;
+   
+   
+
+
+}
+.circle-count{
+    height:100px;
+    width:100px;
+    border:4px solid red;
+  vertical-align: center;
+    align-items:center;
+    font-size: 40px;
+    text-align: center;
+    border-radius:50%;
+    border-right: 4px solid rgb(69, 41, 41);
+    border-left: 4px solid rgb(69, 41, 41);
+}
+
+
+#seconds{
+ 
+margin-top:30px;
+    color:white;
+   
+
+
+}
+.count-down p span{
+  
+
+    color:rgb(34, 32, 32);
+    text-align: center;
+
+
+}
+
+
+
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    background-color: rgb(86, 85, 85);
+}
+
+
+
+
+
+
+.gun-container {
+    display: flex;
+    position: relative;
+    left:200px;
+    margin-top:150px;
+
+}
+
+
+/**
+* Middle first
+*/
+
+.middle-first {
+    width: 130px;
+    height: 30px;
+    position: relative;
+    left: 0;
+    border-radius: 3px;
+}
+
+.middle-first .top {
+    background-color: black;
+    height: 20px;
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+    position: absolute;
+    top: -3px;
+    display: flex;
+    box-shadow: 0 -1px white;
+    z-index: 2;
+
+}
+.middle-first .bottom {
+    background-color: #a8a8a8;
+    height: 10px;
+    width: 100%;
+    border-radius: 0  0 3px 3px;
+    position: absolute;
+    top: 17px;
+    display: flex;
+    z-index: 2;
+}
+
+.amo {
+    width: 10px;
+    background: #3f3f3f;
+    top: -4px;
+    position: relative;
+    
+}
+
+.amo div {
+    height: 1px;
+    width: 100%;
+    background: black;
+    margin-top: 3px;
+}
+
+.middle-first  .base {
+    width: 20px;
+    height: 50px;
+    background: #101010;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    z-index: 1;
+    transform: rotate(40deg);
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 0px 2px #707070, 0px 3px black;
+
+}
+
+.middle-first  .base div:nth-child(even) {
+    height: 17px;
+    background: #858585;
+}
+
+
+.middle-first  .base div:nth-child(odd) {
+    height: 17px;
+}
+
+
+.middle-first .shooting-point {
+    width: 20px;
+    height: 11px;
+    border: 2px solid black;
+    position: absolute;
+    top: 24px;
+    left: 44px;
+    border-radius: 5px;
+}
+
+.middle-first .shooting-point .trigger {
+    width: 1px;
+    height: 7px;
+    background: transparent;
+    border: 2px solid black;
+    transform: rotate(-23deg);
+    left: 4px;
+    top: -1px;
+    position: absolute;
+    animation: triggerAnimation 0.3s infinite;
+    transform-origin: top;
+}
+
+@keyframes triggerAnimation {
+    100% {
+        transform: rotateX(20deg);
+    }
+}
+
+
+
+
+
+/*
+*  Middle second
+*/
+
+
+.middle-second {
+    width: 130px;
+    height: 30px;
+    position: relative;
+    left: 0;
+    border-radius: 3px;
+}
+
+.middle-second .top {
+    background-color: black;
+    height: 20px;
+    width: 100%;
+    border-radius: 3px 3px 0 0;
+    position: absolute;
+    top: -3px;
+    display: flex;
+    box-shadow: 0 -1px white;
+
+}
+.middle-second .bottom {
+    background-color: white;
+    height: 10px;
+    width: 100%;
+    border-radius: 0  0 3px 3px;
+    position: absolute;
+    top: 17px;
+    display: flex;
+}
+
+.middle-second .shape {
+    margin: 0 6px;
+    background: #191919;
+    width: 10px;
+    height: 5px;
+    border-radius: 40%;
+    border: 2px solid black;
+    position: relative;
+
+}
+
+.middle-second .top .shape {
+    top: 5px;
+    position: relative;
+}
+
+.middle-second .bottom .shape {
+    width: 8px;
+    height: 4px;
+    top: 1px;
+}
+
+
+
+
+
+
+
+.middle-second .vertical {
+    position: absolute;
+    height: 400px;
+    width: 20px;
+    /* border: 1px solid white; */
+    right: 10px;
+}
+
+.vertical .knotch {
+    width: 15px;
+    height: 30px;
+    border: 2px solid #040404;
+    z-index: 4;
+    background-color: #404040;
+    position: absolute;
+    top: -5px;
+}
+
+
+.vertical .knotch:after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    border: 2px solid black;
+    height: 3px;
+    width: 100%;
+    border-top: none;
+    left: -2px;
+}
+
+.vertical .patch {
+    background-color: #181818;
+    height: 5px;
+    width: 15px;
+    position: absolute;
+    top: 32px;
+    left: 2px;
+}
+
+
+.vertical .patch:before {
+    content: "";
+    height: 2px;
+    width: 2px;
+    position: absolute;
+    left: 2px;
+    background-color: red;
+}
+.vertical .patch:after {
+    content: "";
+    height: 2px;
+    width: 2px;
+    position: absolute;
+    right: 2px;
+    background-color: red
+}
+
+.vertical .hold {
+    position: absolute;
+    top: 40px;
+    background-color: #212121;
+    height: 20px;
+    width: 10px;
+    border: 2px solid black;
+    left: 2px;
+    box-shadow: -2px 0px #212121,
+                -3px 0px black,
+                2px 0px #212121,
+                3px 0px black;
+}
+
+.vertical .hold:before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 1px;
+    border: 2px solid black;
+    top: -5px;
+    left: -8px;
+    background-color: #212121;
+}
+
+
+.vertical .patch2 {
+    position: absolute;
+    top: 64px;
+    left: 1px;
+    background-color: #212121;
+    height: 14px;
+    width: 4px;
+    border: 2px solid black;
+    left: 5px;
+    box-shadow: -2px 0px #212121, -3px 0px black, 2px 0px #212121, 3px 0px black;
+}
+
+.patch2 .dot {
+    width: 2px;
+    height: 2px;
+    background-color: black;
+    border-radius: 1px;
+    margin: 2px 1px;
+}
+
+
+
+.vertical .bottom {
+    position: absolute;
+    height: 60px;
+    width: 20px;
+    top: 82px;
+    left: -3px;
+    background-color: #292929;
+    border: 2px solid black;
+    flex-direction: column;
+}
+
+.vertical .bottom .shape {
+    background-color: #151515;
+    border: 2px solid black;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    margin-top: 4px;
+    margin-left: 7px;
+    display: block;
+}
+
+.last-section {
+    position: absolute;
+    top: 146px;
+    left: -1px;
+
+}
+
+.last-section div {
+    margin: 0 auto;
+}
+
+.last-section div:nth-child(1) {
+    height: 2px;
+    border: 2px solid black;
+    width: 10px;
+}
+
+.last-section div:nth-child(2) {
+    height: 2px;
+    border: 2px solid black;
+    width: 14px;
+}
+
+.last-section div:nth-child(3) {
+    height: 2px;
+    border: 2px solid black;
+    width: 18px;
+}
+
+.last-section div:nth-child(4) {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid black;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* FRON BOX*/
+.front {
+    display: flex;
+    position: relative;
+}
+
+.front .supressor {
+    background-color: #151515e3;
+    border: 2px solid #040404;
+    border-radius: 3px;
+    width: 60px;
+    height: 10px;
+    z-index: 2;
+    position: absolute;
+    left: 130px;
+}
+.front .supressor:before {
+    content: "";
+    height: 10px;
+    width: 1px;
+    position: absolute;
+    border-left: 2px solid #040404;
+    border-right: 1px dotted #040404;
+    position: absolute;
+    left: 2px;
+    z-index: 3;
+}
+
+.front .divider {
+    background-color: #1f1f1f;
+    border: 2px solid #040404;
+    height: 5px;
+    width: 10px;
+    position: absolute;
+    left: 120px;
+    top: 2px;
+    border-right: none;
+    border-left: none;
+}
+.front .stick {
+    background-color: #1f1f1f;
+    border: 2px solid #040404;
+    top: 2px;
+    border-right: none;
+    border-left: none;
+    width: 120px;
+    height: 6px;
+    left: 0;
+    position: absolute;
+    box-shadow: 0px -2px 0 #202020,
+                0px 2px 0 #202020;
+}
+
+
+
+/**
+* first section
+*/
+
+.back {
+    position: relative;
+    top: -3px;
+}
+
+.back .top {
+        background-color: #0f0f0f;
+        height: 29px;
+        width: 100px;
+        border: 2px solid black;
+        z-index: 3;
+        position: relative;
+}
+
+.back .top .light {
+    background-color: #00ceed;
+    width: 15px;
+    height: 4px;
+    position: absolute;
+    top: 3px;
+    left: 5px;
+}
+.back .bottom {
+    transform: rotate(-12deg) skewX(-10deg);
+    top: -19px;
+    position: relative;
+    z-index: 1;
+    left: -1px;
+    background-color: #0f0f0f;
+    height: 25px;
+    width: 99px;
+    border: 2px solid black;
+}
+
+.amo-leaving {
+    position: absolute;
+    width: 6px;
+    height: 8px;
+    left: 460px;
+    display: flex;
+    background-color: #6e4535;
+    animation: amoLeaving 1s infinite;
+    animation-delay: 5s;
+    opacity: 0;
+    z-index: -1;
+    margin-top:150px;
+   
+    
+}
+.amo-leaving.one {
+}
+
+.amo-leaving.two {
+    animation-delay: 5.5s;
+}
+.amo-leaving.three {
+    animation-delay: 6s;
+}
+.amo-leaving.four {
+    animation-delay: 6.5s;
+}
+.amo-leaving.five {
+    animation-delay: 7s;
+}
+.amo-leaving.six {
+    animation-delay: 7.5s;
+}
+.amo-leaving.seven {
+    animation-delay: 8s;
+}
+
+
+
+@keyframes amoLeaving {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(2500px);
+        opacity: 0;
+    }
+}
+
+
+.amo-leaving:before {
+    content: "";
+    background-color: black;
+    height: 4px;
+    width: 6px;
+    position: absolute;
+    top: 3px;
+    position: absolute;
+    left: 6px;
+    top: 1px;
+}
+.amo-leaving:after {
+    content: "";
+    background-color: #6e4535;
+    height: 10px;
+    width: 16px;
+    left: -16px;
+    top: -1px;
+    position: absolute;
+}
+
+/* 
+
+
+ */
+
+.back, .middle-first, .amo, .middle-second, .front {
+    opacity: 0;
+}
+
+
+@keyframes backAnimation {
+    100% {
+        opacity: 1;
+    }
+}
+
+.back {
+    animation: backAnimation 2s forwards;
+}
+.middle-first {
+    animation: backAnimation 1s forwards;
+    animation-delay: 1s;
+}
+.amo {
+    animation: backAnimation 1s forwards;
+    animation-delay: 2s;
+}
+.middle-second {
+    animation: backAnimation 1s forwards;
+    animation-delay: 3s;
+}
+.front {
+    animation: backAnimation 1s forwards;
+    animation-delay: 4s;
+}
+
+
+
+
+
+
+
+
+
+.hamburger-menu {
+    --x-width: calc(var(--hamburger-height) * 1.41421356237);
+  
+    display: flex;
+    flex-direction: column;
+    gap: var(--hamburger-gap);
+    width: max-content;
+  position: sticky;
+  top: 0;
+  padding: 5px 0;
+    top: var(--hamburger-margin);
+  left: var(--hamburger-margin);
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  :root {
+    --bar-width: 60px;
+    --bar-height: 8px;
+    --hamburger-gap: 6px;
+    --foreground: rgb(112, 117, 117);
+    --background: white;
+    --hamburger-margin: 8px;
+    --animation-timing: 200ms ease-in-out;
+    --hamburger-height: calc(var(--bar-height) * 3 + var(--hamburger-gap) * 2);
+  }
+  
+  .hamburger-menu:has(input:checked) {
+    --foreground: white;
+    --background: #333;
+  }
+  
+  .hamburger-menu:has(input:focus-visible)::before,
+  .hamburger-menu:has(input:focus-visible)::after,
+  .hamburger-menu input:focus-visible {
+    border: 1px solid var(--background);
+    box-shadow: 0 0 0 1px var(--foreground);
+  }
+  
+  .hamburger-menu::before,
+  .hamburger-menu::after,
+  .hamburger-menu input {
+    content: "";
+    width: var(--bar-width);
+    height: var(--bar-height);
+    background-color: var(--foreground);
+    border-radius: 9999px;
+    transform-origin: left center;
+    transition: opacity var(--animation-timing), width var(--animation-timing),
+      rotate var(--animation-timing), translate var(--animation-timing),
+      background-color var(--animation-timing);
+  }
+  
+  .hamburger-menu input {
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+  }
+  
+  .hamburger-menu:has(input:checked)::before {
+    rotate: 45deg;
+    width: var(--x-width);
+    translate: 0 calc(var(--bar-height) / -2);
+  }
+  
+  .hamburger-menu:has(input:checked)::after {
+    rotate: -45deg;
+    width: var(--x-width);
+    translate: 0 calc(var(--bar-height) / 2);
+  }
+  
+  .hamburger-menu input:checked {
+    opacity: 0;
+    width: 0;
+  }
+  
+  .sidebar {
+    transition: translate var(--animation-timing);
+    translate: 300%;
+    padding: 0.5rem 1rem;
+    padding-top: calc(var(--hamburger-height) + var(--hamburger-margin) + 1rem);
+    background-color: var(--foreground);
+    color: var(--background);
+    max-width: 10rem;
+    min-height: 100vh;
+  
+  
+  }
+  
+  .hamburger-menu:has(input:checked) + .sidebar {
+    translate: 0;
+  }
+  
+  
+
+  
